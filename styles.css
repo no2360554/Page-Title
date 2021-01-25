@@ -1,0 +1,205 @@
+.pfp{
+    border-radius:50%;
+    width:250px;
+	margin:0px 10px 0px 0px;
+    padding:30px;
+}
+.pics{
+padding:0pc;
+    border: solid indigo 4px;
+    margin:20px 20px 20px 20px;
+    
+}
+
+img{
+  display: block;
+  width: 33.34%;
+  height: auto;
+}
+h1{
+    text-align:center;
+	border-bottom:solid black 4px;
+}
+.bio{padding:30px;
+    border-top:dotted black 4px;
+    border-radius:0%;
+    
+
+}
+h4{
+	font-family:"arial";
+}
+
+html{
+    border:solid indigo 5pt;
+	padding:10px;
+    margin: 10px 10px 10px 10px;
+    background-image: linear-gradient(to bottom right, indigo, rgb(186,85,211));
+    background-repeat:no-repeat;
+    
+}
+.row{ 
+    display:flex;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+  background-color:indigo;
+
+}
+
+.container:hover .overlay {
+  opacity: .80;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family:"arial";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text1 {
+  color: white;
+  font-size: 13px;
+    font-family:"arial";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.text2 {
+  color: white;
+    opacity: .50;
+  font-size: 15px;
+    font-family:"arial";
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text3 {
+  color: white;
+    opacity: .50;
+  font-size: 15px;
+    font-family:"arial";
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+    padding-left:17px;
+}
+.text4 {
+  color: white;
+    opacity: .50;
+  font-size: 15px;
+    font-family:"arial";
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+    padding-left:17px;
+    padding-top:40px;
+}
+.link1{
+color:yellow;
+    
+    text-align:center;
+     padding-left:5px;
+    padding-top:0px;
+    opacity:.75;
+}
+.link{
+color:yellow;
+    
+    text-align:center;
+     padding-left:10px;
+    padding-top:40px;
+    opacity:.75;
+}
+.text5{color: white;
+  font-size: 15px;
+    font-family:"arial";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text5{color: white;
+  font-size: 15px;
+    font-family:"arial";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: indigo;
+}
+
+li {
+  float:top;
+}
+
+li a {
+  display: block;
+  color: rgb(186,85,211);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: purple;
+}
+.active {
+  background-color: purple;
+}
+a:hover {
+  color: violet;
+  background-color: transparent;
+  text-decoration: underline;
+}
